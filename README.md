@@ -16,9 +16,9 @@ Control of external devices such as fans and LEDs via relay modules.
 
 **Tech Stack**
 
-Arduino IDE : For Coding ESP32 Micro-Controller.
-ThingSpeak : For cloud data storage and visualization.
-Flutter : For mobile app UI and real time visualization.
+* Arduino IDE : For Coding ESP32 Micro-Controller.
+* ThingSpeak : For cloud data storage and visualization.
+* Flutter : For mobile app UI and real time visualization.
 
 **Circuit Diagram**
 
@@ -26,12 +26,12 @@ Flutter : For mobile app UI and real time visualization.
 
 **Working**
 
-LDR Sensor → ESP32: Represents the light level input.
-Ultrasonic → ESP32: Measure the water level.
-ESP32 → Relay Module: Controls the relays based on light conditions.
-Relay Module → Fan/LED: Turns on or off based on the relay signal.
-ESP32 → ThingSpeak: Sends data to the cloud.
-ThingSpeak → Flutter App: Displays data.
+* LDR Sensor → ESP32: Represents the light level input.
+* Ultrasonic → ESP32: Measure the water level.
+* ESP32 → Relay Module: Controls the relays based on light conditions.
+* Relay Module → Fan/LED: Turns on or off based on the relay signal.
+* ESP32 → ThingSpeak: Sends data to the cloud.
+* ThingSpeak → Flutter App: Displays data.
 
 
 
