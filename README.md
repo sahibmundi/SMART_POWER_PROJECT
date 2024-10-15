@@ -1,7 +1,7 @@
 # SMART POWER PROJECT
 **About The Project**
 
-This project demonstrates a simple and efficient home automation system using the ESP32 Dev Module. The ESP32 is programmed to control devices such as a fan and LED panel, based on inputs from an LDR sensor and an ultrasonic sensor (for water level measurement from water tank). The relay module is used to switch these devices on or off. In addition to the hardware, the system utilizes Wi-Fi connectivity to send sensor data to ThingSpeak for real-time monitoring and data analysis. This project also features a Flutter mobile application that displays status of connected devices such as the fan and LED panel.
+This project demonstrates an efficient home automation system using the ESP32 Micro-Controller. The ESP32 is programmed to control devices such as a fan and LED panel, based on inputs from an LDR sensor and an ultrasonic sensor (for water level measurement from water tank). The relay module is used to switch these devices on or off. In addition to the hardware, the system utilizes Wi-Fi connectivity to send sensor data to ThingSpeak for real-time monitoring and data analysis. This project also features a Flutter mobile application that displays status of connected devices such as the fan and LED panel.
 
 ![IMG-20240914-WA0086~4](https://github.com/user-attachments/assets/8a5ae99b-190b-4098-b106-17600e7bcd23)
 
